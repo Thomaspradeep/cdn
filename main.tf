@@ -8,7 +8,7 @@ resource "aws_route53_record" "dev_record" {
     type = "A"
 
     alias {
-        name = "testdomain.com"
+        name = "54.92.210.189"
         zone_id = aws_route53_zone.primary.zone_id
         evaluate_target_health = true
     }
