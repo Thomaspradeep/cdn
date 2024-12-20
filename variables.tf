@@ -16,7 +16,7 @@ variable "environment" {
 variable "parent_zone_ids" {
     type = map(string)
     default = {
-      internal = 1
+      internal = "testdomain.com"
       private = null
     }
 }
