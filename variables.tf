@@ -12,3 +12,11 @@ variable "environment" {
     type = string
     default = "dev"
 }
+
+variable "parent_zone_ids" {
+    type = map(string)
+    default = {
+      internal = null
+      private = null
+    }
+}
